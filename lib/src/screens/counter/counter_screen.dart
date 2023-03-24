@@ -6,9 +6,8 @@ class CounterScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: const Icon(Icons.plus_one),
+      appBar: AppBar(
+        title: const Text('Counter Screen'),
       ),
       body: Center(
         child: Column(
@@ -24,6 +23,10 @@ class CounterScreen extends StatelessWidget {
             ),
           ],
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.plus_one),
       ),
     );
   }
