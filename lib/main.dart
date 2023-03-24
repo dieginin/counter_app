@@ -18,7 +18,7 @@ class MainApp extends StatelessWidget {
         colorSchemeSeed: Colors.lime,
       ),
       title: 'Counter App',
-      home: const CounterScreen(),
+      home: const CounterFunctionsScreen(),
     );
   }
 }
